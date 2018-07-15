@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movie upload</title>
+<!--Standart libaries-->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css"/>
+	
+	
+<!--Own libraries-->
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<script src="/socket.io/socket.io.js"></script>
+<!--<link rel="stylesheet" type="text/css" href="KachelmaniaStyle.css">-->
+<script type="text/javascript" src="javascript.js"></script>
+<meta name="viewport" content="width=device-width", initial-scale=1.0">
+	
+</head>
+
+<body> 
+    <div id="UploadBox">
+        <h2>Video Uploader</h2>
+        <span id='UploadArea'>
+            <label for="FileBox">Choose A File: </label><input type="file" id="FileBox"><br>
+            <label for="NameBox">Name: </label><input type="text" id="NameBox"><br>
+ 
+            <button  type='button' id='UploadButton' class='Button'>Upload</button>
+        </span>
+    </div>
+</body>
+
+</html>
